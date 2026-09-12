@@ -2,7 +2,7 @@
 
 const projectsContainer = document.querySelector('.projects-container');
 
-fetch('http://localhost:8080/api/projects')
+fetch('http://localhost:8080/api/project')
     .then(response => response.json())
     .then(projects => {
         projects.forEach(project => {
