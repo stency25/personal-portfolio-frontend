@@ -2,7 +2,7 @@
 
 const skillsContainer = document.querySelector('.skills-container');
 
-fetch('http://localhost:8080/api/skill')
+fetch('https://personal-portfolio-x94q.onrender.com/api/skill')
     .then(response => response.json())
     .then(skills => {
         skills.forEach(skill => {

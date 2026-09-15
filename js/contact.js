@@ -1,4 +1,4 @@
-// contact.js — handles contact form submission
+// contact.js — this part handles contact form submission
 
 const contactForm = document.querySelector('#contact-form');
 
@@ -9,7 +9,7 @@ contactForm.addEventListener('submit', (event) => {
     const email = document.querySelector('#email').value;
     const message = document.querySelector('#message').value;
 
-    fetch('http://localhost:8080/api/contact', {
+    fetch('https://personal-portfolio-x94q.onrender.com/api/contact',  {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

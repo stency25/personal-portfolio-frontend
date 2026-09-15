@@ -31,7 +31,7 @@ section {
 h1, h2, h3 {
     margin-bottom: 15px;
 }
-/* ===== Navbar ===== */
+/* =THis is for the navigation bar part= */
 header {
     position: fixed;
     top: 0;
@@ -71,7 +71,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #2dd4bf;
 }
-/* ===== Hero Section ===== */
+/* Hero Section  */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -130,7 +130,7 @@ nav ul li a:hover {
 .hero-buttons a:hover {
     transform: translateY(-3px);
 }
-/* ===== About Section ===== */
+/* The About Section  */
 #about h2 {
     font-size: 2rem;
     text-align: center;
@@ -142,7 +142,7 @@ nav ul li a:hover {
     color: #9ca3af;
     text-align: center;
 }
-/* ===== Skills Section ===== */
+/*  Skills Section  */
 #skills h2 {
     font-size: 2rem;
     text-align: center;
@@ -180,7 +180,7 @@ nav ul li a:hover {
     color: #9ca3af;
     font-size: 0.95rem;
 }
-/* ===== Projects Section ===== */
+/* Projects Section  */
 #projects h2 {
     font-size: 2rem;
     text-align: center;
@@ -230,7 +230,7 @@ nav ul li a:hover {
 .project a:hover {
     text-decoration: underline;
 }
-/* ===== Contact Section ===== */
+/*  Contact Section */
 #contact {
     text-align: center;
 }
@@ -282,7 +282,7 @@ nav ul li a:hover {
 #contact-form button:hover {
     opacity: 0.85;
 }
-/* ===== Footer ===== */
+/*  Footer  */
 footer {
     text-align: center;
     padding: 30px 10%;

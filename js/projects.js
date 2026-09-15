@@ -2,7 +2,8 @@
 
 const projectsContainer = document.querySelector('.projects-container');
 
-fetch('http://localhost:8080/api/project')
+
+fetch('https://personal-portfolio-x94q.onrender.com/api/project')
     .then(response => response.json())
     .then(projects => {
         projects.forEach(project => {
